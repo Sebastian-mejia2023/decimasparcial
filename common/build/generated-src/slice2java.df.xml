@@ -1,0 +1,38 @@
+<state>
+  <timestamp value='1794323198544' />
+  <sourceSet name='default'>
+    <source name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/src/main/slice/ChessService.ice'>
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/PieceColor.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/PieceType.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/PlayerRole.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/GameStatus.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/TierLevel.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/Position.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/ChessPiece.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/MoveRecord.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/PlayerProfile.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/RoomSummary.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/GameState.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/JoinRoomResult.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/ChessException.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/InvalidMoveException.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/RoomNotFoundException.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/NotPlayerTurnException.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/UnauthorizedActionException.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/ChessObserver.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/ChessService.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/BoardRowHelper.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/BoardMatrixHelper.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/MoveHistoryHelper.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/PieceListHelper.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/PlayerLeaderboardHelper.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/RoomListHelper.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/ChessObserverPrx.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/_ChessObserverPrxI.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/ChessServicePrx.java' />
+      <file name='/home/mejia/Documentos/SEMESTRE_05/COMPUNET1/jeanferTaller/common/build/generated-src/ChessApp/_ChessServicePrxI.java' />
+    </source>
+    <arg value='/home/mejia/.local/opt/zeroc-ice/usr/bin/slice2java' />
+    <arg value='-I/home/mejia/.local/opt/zeroc-ice/usr/share/ice/slice' />
+  </sourceSet>
+</state>

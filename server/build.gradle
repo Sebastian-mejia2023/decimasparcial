@@ -1,0 +1,33 @@
+plugins {
+    id 'application'
+}
+
+dependencies {
+    implementation project(':common')
+}
+
+application {
+    mainClass = 'co.icesi.chess.server.ChessServerApp'
+}
+
+task runServer(type: JavaExec) {
+    mainClass = 'co.icesi.chess.server.ChessServerApp'
+    classpath = sourceSets.main.runtimeClasspath
+    standardInput = System.in
+}
+
+tasks.register('fatJar', Jar) {
+    group = 'build'
+    description = 'Genera app.jar ejecutable con todas las dependencias'
+    archiveFileName = 'app.jar'
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    manifest {
+        attributes 'Main-Class': 'co.icesi.chess.server.ChessServerApp'
+    }
+    from sourceSets.main.output
+    dependsOn ':common:jar'
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    exclude 'META-INF/*.SF', 'META-INF/*.DSA', 'META-INF/*.RSA', '**/module-info.class'
+}

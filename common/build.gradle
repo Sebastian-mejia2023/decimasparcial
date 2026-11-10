@@ -1,0 +1,21 @@
+plugins {
+    id 'java-library'
+    id 'com.zeroc.gradle.ice-builder.slice'
+}
+
+slice {
+    if (System.getenv('ICE_HOME') != null) {
+        iceHome = System.getenv('ICE_HOME')
+    } else if (file('/home/mejia/.local/opt/zeroc-ice/usr').exists()) {
+        iceHome = '/home/mejia/.local/opt/zeroc-ice/usr'
+    }
+    java {
+        srcDir = 'src/main/slice'
+    }
+}
+
+compileSlice {
+    doFirst {
+        file("$buildDir/generated-src/slice2java.df.xml").delete()
+    }
+}
